@@ -7,6 +7,17 @@ import {
   MARK_COMPLETED,
 } from "./actionTypes";
 
+export const getData = (todo) => {
+  return {
+    type: ADD_TODO,
+    payload: {
+      id: Date.now(),
+      title: todo?.title,
+      description: todo?.description,
+    },
+  };
+};
+
 export const addNewTodo = (todo) => {
   return {
     type: ADD_TODO,
