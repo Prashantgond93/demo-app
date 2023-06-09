@@ -1,0 +1,17 @@
+  .card-listing {
+    display: flex;
+    flex-direction: row;
+    background-color:#e9e5d8;
+    margin-top: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .card {
+    width: 50%; /* Each card takes 50% of the container width */
+    /* Additional card styles */
+  }
+/*   
+  .card-text {
+    color: #777;
+  } */

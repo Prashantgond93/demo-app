@@ -1,0 +1,25 @@
+.footer-background-image {
+    background-image: url('https://rumble.ancorathemes.com/splash/src/img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  .container-fluid {
+    padding: 0;
+    height: 80vh;
+  }
+  
+  .col {
+    padding: 0;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }

@@ -25,16 +25,26 @@
 // export default App;
 
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { AddTodo } from "./components/AddTodo";
-import { TodoLists } from "./components/TodoLists";
+import Preview from "./components/Preview";
+import Header from "./components/Header";
+import AnimatedCard from "./rumble/animatedCard/AnimatedCard";
+import DemoListing from "./rumble/demoListing/DemoListing";
+import FooterComponent from "./rumble/footerComponent/FooterComponent";
+import FeatureComponent from "./rumble/featureComponent/FeatureComponent";
+import InfoSection from "./rumble/infoSection/InfoSection";
 
 const App = () => {
   return (
-    <div className="container p-4 mt-2">
-      <h2>Todo Application</h2>
-      <AddTodo />
-      <TodoLists />
+    <div>
+      {/* Other components */}
+      <Preview />
+      <InfoSection />
+      <DemoListing />
+      <FeatureComponent />
+      <AnimatedCard />
+      <FooterComponent />
+      {/* <Header /> */}
+      {/* <Home/> */}
     </div>
   );
 };
